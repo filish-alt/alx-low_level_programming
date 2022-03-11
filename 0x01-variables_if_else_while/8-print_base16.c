@@ -16,5 +16,6 @@ for (x = 'a'; x < 'g'; x++)
 {
 putchar(x);
 }
+putchar('\n');
 return (0);
 }
