@@ -7,6 +7,12 @@
 */
 int main(void)
 {
-putchar("_putchar");
+char put[] = "_putchar";
+int c;
+for (c = 0; c <=7; c++)
+{
+_putchar(put[c]);
+}
 putchar('\n');
+return (0);
 }	
