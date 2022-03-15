@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * -islower - is print lower case
+ * -islower -check if it's lower case and print lower case
  *  return : 0 for uppercase and 1 for lower case
  *
  **/
@@ -10,7 +10,7 @@ if (c >= 'a' && c <= 'z')
 {
 return (1);
 }
-else 
+else
 {
 return (0);
 }
