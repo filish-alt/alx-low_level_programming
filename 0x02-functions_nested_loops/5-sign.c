@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _sign - check sign of number
+ * print_sign - check sign of number
  * @n: teak number
  * Return: return 1 if postive number,0 if zero,and -1 if negative number
  **/
