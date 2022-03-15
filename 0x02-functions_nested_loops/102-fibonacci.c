@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-long pri = 1 , sec = 2 , sum
+long pri = 1 , sec = 2 , sum;
 
 printf("1, 2");
-while (sum < 10000
+while (sum < 10000)
 	{
 sum = pri + sec;
 printf(", %lu", sum);
 pri = sec;
-sec = sum
+sec = sum;
 	}
 printf("\n");
 return (0);
