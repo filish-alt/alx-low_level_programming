@@ -15,4 +15,4 @@ _putchar(put[c]);
 }
 putchar('\n');
 return (0);
-}	
+}
