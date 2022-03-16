@@ -20,7 +20,7 @@ z = x + y;
 x = y;
 y = z;
 printf("%lu, ", z);
-  }
+}
 
 a = x % 1000;
 x = x / 1000;
@@ -30,8 +30,8 @@ y = y / 1000;
 while (count <= 98)
 {
 carry = (a + b) / 1000;
-c = (a + b) - carry * 1000;
-z = (x + y) + carry;
+c = (a + b) -carry * 1000;
+z = (x + y) +carry;
 x = y;
 y = z;
 a = b;
