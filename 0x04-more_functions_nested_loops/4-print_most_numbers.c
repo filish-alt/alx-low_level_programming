@@ -1,8 +1,6 @@
 #include "main.h"
 /**
  * print_most_numbers - print numbers
- * @i: take in integet
- * @void: void
  * Return: Always 0.
  **/
 void print_most_numbers(void)
