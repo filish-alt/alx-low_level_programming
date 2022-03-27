@@ -1,0 +1,1 @@
+more pointer ad array
