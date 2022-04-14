@@ -8,10 +8,16 @@ va_list ap;
 int i, j;
 va_start(ap,n);
 j=0;
+if(n == 0)
+{
+return 0;
+}
+else{
 for(i=0; i<n; i++)
 {
 	j+=va_arg(ap,int);
 }
 va_end(ap);
 return n;
+}
 }
